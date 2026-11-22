@@ -1,0 +1,14 @@
+name: CustomWorlds
+version: 1.0.0
+main: dev.cw.CustomWorldsPlugin
+api-version: '26.3'
+load: STARTUP
+description: Custom Overworld/Nether/End generation with mini-dungeons and loot
+commands:
+  cw:
+    description: CustomWorlds management
+    usage: /cw <create|tp|list|reload>
+    permission: customworlds.admin
+permissions:
+  customworlds.admin:
+    default: op
